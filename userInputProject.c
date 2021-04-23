@@ -272,7 +272,7 @@ void exponentError()
 int main(void)
 {
     //Introduces user to program and gives some basic information on how to get started.
-    printf("\nWelcome to Pandora's Box Calculator which is run on weird magic.");
+    printf("\nWelcome to Pandora's Box Calculator which is run on some weird type of magic.");
     printf("\nEnter input on lines starting with \">\"");
     printf("\nTo get a list of possible commands type \"help\" or \"info [command name]\" to get information on a specific command.");
 
