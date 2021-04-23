@@ -37,8 +37,10 @@ Here are some notes on what can occur when a command is entered by the user:
 
 - If an invalid characters are entered into a command requesting an integer value such as a character, the user will be notified
   that the operand is invalid.
+  ![Value of Operands is too Large](Pictures/ExcedingOperand.png "Value of Operands is too Large").
 
 - If any combination of just space and tab characters will allow the user to skip a line.
+- ![LineSkip](Pictures/ExcedingOperand.png "Line Skip").
 
 
 - If too many strings are inputed or an invalid command is entered, the user is notified that there is no such command.
