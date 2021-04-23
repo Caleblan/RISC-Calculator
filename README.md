@@ -77,6 +77,8 @@ Notes specifically for commands:
 
 - Info command provides information on itself as well as exit command (not spectacular but just in case you were curious).
 - The info command also provides examples on how to type a command that requires one or more operands.
+ ![](Pictures/InfoExample.png)
+
 
 
 
