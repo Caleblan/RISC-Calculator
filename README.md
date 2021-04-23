@@ -7,8 +7,11 @@ Type help to get the full list of commands or type "info [commandName]" to get$
 Examples:
 
 \> test
+
 \> add 50 2
+
 \> bitcount 15
+
 \> info exit
 
 If an error occurs, the mathematical functions in ARM will call one of the following error functions in C:
@@ -43,7 +46,8 @@ Here are some notes on what can occur when a command is entered by the user:
 
 Notes specifically for commands:
 - For the summation command, it does not matter in which order the operands are placed at.
-    Ex. summation 4 6 will yield same result as summation 6 4.
+    
+Ex. summation 4 6 will yield same result as summation 6 4.
 - Info command provides information on itself as well as exit command (not spectacular but just in case you were curious).
 - The info command also provides examples on how to type a command that requires one or more operands.
 
