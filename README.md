@@ -12,10 +12,10 @@ Examples:
 
 If an error occurs, the mathematical functions in ARM will call one of the following error functions in C:
 
-    1. printOverflow
-    2. printUnderflow
-    3. divideError
-    4. exponentError
+1. printOverflow
+2. printUnderflow
+3. divideError
+4. exponentError
     
     
     
