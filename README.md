@@ -23,8 +23,9 @@ Examples:
 \> info exit
 
 
-Here are some pictures of the functionallity of the math commands:
-![](Pictures/TestOverall.png "Value of Operands is too Large")
+Here are some pictures of the functionallity of the commands:
+![](Pictures/TestOverall.png)
+![](Pictures/test.png)
 
 
 
