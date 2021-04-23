@@ -45,9 +45,8 @@ Just a brief overview of how my program works:
 4. exponentError
     
 Each one of these commands prints a unique error message to the user and allows the user to input command again.
-Each of there method will adjust a global variable in C which will then be checked before printing the result. If
-the value of isError is greater than 0, an error has occured and an error message will be printed to the user rather
-than a calculated value. 
+Each of these error methods will adjust a global variable called isError in C which will then be checked before printing the result. If
+the value of isError is greater than 0, an error has occured and an error message will be printed to the user rather than a calculated value. 
 
 Here are some notes on what can occur when a command is entered by the user:
 
@@ -56,7 +55,7 @@ Here are some notes on what can occur when a command is entered by the user:
   first value is to large).
   ![Value of Operands is too Large](Pictures/ExcedingOperand.png "Value of Operands is too Large")
 
-- If an invalid characters are entered into a command requesting an integer value such as a character, the user will be notified
+- If invalid characters are entered into a command requesting an integer value such as a character, the user will be notified
   that the operand is invalid.
   ![InvalidOperand](Pictures/InvalidOperand.png "Invalid Operands")
 
