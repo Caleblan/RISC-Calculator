@@ -3,12 +3,13 @@ basic structure with the command being the first string and can be followed by m
 Type help to get the full list of commands or type "info [commandName]" to get$
 
 Examples:
-    > info info
-    > test
-    > add 50 2
-    > bitcount 15
-    > divide 50 20
-    > info exit
+    
+    \> info info
+    \> test
+    \> add 50 2
+    \> bitcount 15
+    \> divide 50 20
+    \> info exit
 
 If an error occurs, the mathematical functions in ARM will call one of the following error functions in C:
 
