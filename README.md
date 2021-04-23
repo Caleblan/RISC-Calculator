@@ -16,10 +16,14 @@ If an error occurs, the mathematical functions in ARM will call one of the follo
     2. printUnderflow
     3. divideError
     4. exponentError
+    
+    
     Each one of these commands prints a unique error message to the user then allows the user to input command again.
 Each of there method will adjust a global variable in C which will then be checked before printing the result. If
 the value of isError is greater than 0, an error has occured and an error message will be printed to the user rather
 than a calculated value.
+
+
     As you can probably tell from the method names, this program is able to differentiate between overflow and underflow
 for mathematical commands.
 
