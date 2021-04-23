@@ -33,7 +33,7 @@ Here are some notes on what can occur when a command is entered by the user:
 - If an inputed value exceeds the 32-bit integer size of a valid command, the user will be notified that the value is to large.
   The program can also determine which input is too large (except the case where both values are too large, in which case it will say 
   first value is to large).
-  ![Value of Operands is too Large](file:///D:/School/CPSC%20231/ExcedingOperand.png "Value of Operands is too Large").
+  ![Value of Operands is too Large](School/CPSC%20231/ExcedingOperand.png "Value of Operands is too Large").
 
 - If an invalid characters are entered into a command requesting an integer value such as a character, the user will be notified
   that the operand is invalid.
