@@ -3,14 +3,12 @@ basic structure with the command being the first string and can be followed by m
 Type help to get the full list of commands or type "info [commandName]" to get$
 
 Examples:
-
-    \> test
-
-    \> add 50 2
-
-    \> bitcount 15
-
-    \> info exit
+    > info info
+    > test
+    > add 50 2
+    > bitcount 15
+    > divide 50 20
+    > info exit
 
 If an error occurs, the mathematical functions in ARM will call one of the following error functions in C:
 
@@ -21,7 +19,7 @@ If an error occurs, the mathematical functions in ARM will call one of the follo
     
     
     
-    Each one of these commands prints a unique error message to the user then allows the user to input command again.
+Each one of these commands prints a unique error message to the user then allows the user to input command again.
 Each of there method will adjust a global variable in C which will then be checked before printing the result. If
 the value of isError is greater than 0, an error has occured and an error message will be printed to the user rather
 than a calculated value. 
