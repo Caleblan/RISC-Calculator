@@ -39,7 +39,7 @@ Here are some notes on what can occur when a command is entered by the user:
 - If any combination of just space and tab characters will allow the user to skip a line.
 
 
-- If to many strings are inputed or an invalid command is entered, the user is notified that there is no such command.
+- If too many strings are inputed or an invalid command is entered, the user is notified that there is no such command.
 
 
 
@@ -47,7 +47,8 @@ Here are some notes on what can occur when a command is entered by the user:
 Notes specifically for commands:
 - For the summation command, it does not matter in which order the operands are placed at.
     
-Ex. summation 4 6 will yield same result as summation 6 4.
+  Ex. summation 4 6 will yield same result as summation 6 4.
+
 - Info command provides information on itself as well as exit command (not spectacular but just in case you were curious).
 - The info command also provides examples on how to type a command that requires one or more operands.
 
