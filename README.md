@@ -1,6 +1,6 @@
 Once the program has started, you will be prompted to enter input on lines containing '>'. All the commands follow a 
 basic structure with the command being the first string and can be followed by more strings which should be seperated by a space.
-Type help to get the full list of commands or type "info [commandName]" to get$
+Type help to get the full list of commands or type "info [commandName]" to get the functionallity of a specific command.
 
 Examples:
     
@@ -52,6 +52,7 @@ Here are some notes on what can occur when a command is entered by the user:
 
 
 - If too many strings are inputed or an invalid command is entered, the user is notified that there is no such command.
+ ![Invalid Commands](Pictures/InvalidCommand.png "InvalidCommand")
 
 
 
