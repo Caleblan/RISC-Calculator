@@ -22,6 +22,17 @@ Examples:
 
 \> info exit
 
+
+Here are some pictures of the functionallity of the math commands:
+![](Pictures/TestOverall.png "Value of Operands is too Large")
+
+
+
+
+
+
+
+
 If an error occurs, the mathematical functions in ARM will call one of the following error functions in C:
 
 1. printOverflow
@@ -63,10 +74,6 @@ Notes specifically for commands:
 
 - Info command provides information on itself as well as exit command (not spectacular but just in case you were curious).
 - The info command also provides examples on how to type a command that requires one or more operands.
- 
-
-- This picutre is to show correct functionallity of math commands.
- ![](Pictures/TestOverall.png "Value of Operands is too Large")
 
 
 
