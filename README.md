@@ -4,13 +4,13 @@ Type help to get the full list of commands or type "info [commandName]" to get$
 
 Examples:
 
-\> test
+    \> test
 
-\> add 50 2
+    \> add 50 2
 
-\> bitcount 15
+    \> bitcount 15
 
-\> info exit
+    \> info exit
 
 If an error occurs, the mathematical functions in ARM will call one of the following error functions in C:
 
