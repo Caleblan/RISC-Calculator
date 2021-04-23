@@ -33,11 +33,11 @@ Here are some notes on what can occur when a command is entered by the user:
 - If an inputed value exceeds the 32-bit integer size of a valid command, the user will be notified that the value is to large.
   The program can also determine which input is too large (except the case where both values are too large, in which case it will say 
   first value is to large).
-  ![Value of Operands is too Large](Pictures/ExcedingOperand.png "Value of Operands is too Large").
+  ![Value of Operands is too Large](Pictures/ExcedingOperand.png "Value of Operands is too Large")
 
 - If an invalid characters are entered into a command requesting an integer value such as a character, the user will be notified
   that the operand is invalid.
-  ![InvalidOperand](Pictures/InvalidOperand.png "Invalid Operands").
+  ![InvalidOperand](Pictures/InvalidOperand.png "Invalid Operands")
 
 - If any combination of just space and tab characters will allow the user to skip a line.
  ![LineSkip](Pictures/EmptySpace.png "Line Skip").
@@ -50,6 +50,7 @@ Here are some notes on what can occur when a command is entered by the user:
 
 Notes specifically for commands:
 - For the summation command, it does not matter in which order the operands are placed at. Ex. "summation 4 6" will yield same result as "summation 6 4".
+ ![Summation Example](Pictures/SummationEx.png "Summation Example")
 
 - Info command provides information on itself as well as exit command (not spectacular but just in case you were curious).
 - The info command also provides examples on how to type a command that requires one or more operands.
@@ -58,3 +59,4 @@ Notes specifically for commands:
 
 Miscellaneous notes:
 - This program is able to differentiate between overflow and underflow for all mathematical commands.
+ ![Over and Underflow](Pictures/OverUnderflow.png "Overflow and Underflow")
