@@ -52,7 +52,7 @@ Here are some notes on what can occur when a command is entered by the user:
 
 
 - If too many strings are inputed or an invalid command is entered, the user is notified that there is no such command.
- ![Invalid Commands](Pictures/InvalidCommand.png "InvalidCommand")
+ ![Invalid Commands](Pictures/InvalidCommands.png "InvalidCommand")
 
 
 
