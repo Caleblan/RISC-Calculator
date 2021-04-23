@@ -1,5 +1,5 @@
 Once the program has started, you will be prompted to enter input on lines containing '>'. All the commands follow a 
-basic structure with the command being the first string and can be followed by more strings which should be seperated by a space.
+basic structure with the command being the first string and can be followed by more strings that are each seperated by a space.
 Type help to get the full list of commands or type "info [commandName]" to get the functionallity of a specific command.
 
 Examples:
@@ -35,7 +35,9 @@ Here are some pictures of the functionallity of the commands:
 
 
 
-
+Just a brief overview of how my program works:
+- All user input and printing of strings is handled in userInputProject.c and userInputProject.h. 
+- All mathematical commands as well checks are called from ARM assembly.
 If an error occurs, the mathematical functions in ARM will call one of the following error functions in C:
 
 1. printOverflow
