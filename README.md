@@ -44,7 +44,7 @@ Here are some notes on what can occur when a command is entered by the user:
 Notes specifically for commands:
 - For the summation command, it does not matter in which order the operands are placed at.
     Ex. summation 4 6 will yield same result as summation 6 4.
-- Info command also provides info on itself as well as exit command (not spectacular but just in case you were curious).
+- Info command provides information on itself as well as exit command (not spectacular but just in case you were curious).
 - The info command also provides examples on how to type a command that requires one or more operands.
 
 
