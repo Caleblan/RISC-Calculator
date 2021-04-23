@@ -40,7 +40,7 @@ Here are some notes on what can occur when a command is entered by the user:
   ![InvalidOperand](Pictures/InvalidOperand.png "Invalid Operands").
 
 - If any combination of just space and tab characters will allow the user to skip a line.
-- ![LineSkip](Pictures/EmptySpace.png "Line Skip").
+ ![LineSkip](Pictures/EmptySpace.png "Line Skip").
 
 
 - If too many strings are inputed or an invalid command is entered, the user is notified that there is no such command.
